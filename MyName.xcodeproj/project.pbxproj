@@ -10,7 +10,6 @@
 		CD6DEBBE2AD8F58C00F9BAF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6DEBBD2AD8F58C00F9BAF7 /* AppDelegate.swift */; };
 		CD6DEBC02AD8F58C00F9BAF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6DEBBF2AD8F58C00F9BAF7 /* SceneDelegate.swift */; };
 		CD6DEBC52AD8F58C00F9BAF7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6DEBC32AD8F58C00F9BAF7 /* Main.storyboard */; };
-		CD6DEBC82AD8F58C00F9BAF7 /* MyName.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = CD6DEBC62AD8F58C00F9BAF7 /* MyName.xcdatamodeld */; };
 		CD6DEBCA2AD8F58F00F9BAF7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CD6DEBC92AD8F58F00F9BAF7 /* Assets.xcassets */; };
 		CD6DEBCD2AD8F58F00F9BAF7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CD6DEBCB2AD8F58F00F9BAF7 /* LaunchScreen.storyboard */; };
 		CD6DEBD92ADA567000F9BAF7 /* CoreDataManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD6DEBD82ADA567000F9BAF7 /* CoreDataManager.swift */; };
@@ -28,7 +27,6 @@
 		CD6DEBBD2AD8F58C00F9BAF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CD6DEBBF2AD8F58C00F9BAF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		CD6DEBC42AD8F58C00F9BAF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		CD6DEBC72AD8F58C00F9BAF7 /* MyName.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = MyName.xcdatamodel; sourceTree = "<group>"; };
 		CD6DEBC92AD8F58F00F9BAF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CD6DEBCC2AD8F58F00F9BAF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CD6DEBCE2AD8F58F00F9BAF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -77,7 +75,6 @@
 				CD6DEBD62ADA55F700F9BAF7 /* Model */,
 				CD6DEBD72ADA55FD00F9BAF7 /* Support */,
 				CD6DEBCE2AD8F58F00F9BAF7 /* Info.plist */,
-				CD6DEBC62AD8F58C00F9BAF7 /* MyName.xcdatamodeld */,
 			);
 			path = MyName;
 			sourceTree = "<group>";
@@ -202,7 +199,6 @@
 				CD6DEBE22ADA56F500F9BAF7 /* NameMeaning.xcdatamodeld in Sources */,
 				CD6DEBE62ADA576B00F9BAF7 /* AutoCellSize.swift in Sources */,
 				CD6DEBBE2AD8F58C00F9BAF7 /* AppDelegate.swift in Sources */,
-				CD6DEBC82AD8F58C00F9BAF7 /* MyName.xcdatamodeld in Sources */,
 				CD6DEBD92ADA567000F9BAF7 /* CoreDataManager.swift in Sources */,
 				CD6DEBC02AD8F58C00F9BAF7 /* SceneDelegate.swift in Sources */,
 			);
@@ -424,16 +420,6 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		CD6DEBC62AD8F58C00F9BAF7 /* MyName.xcdatamodeld */ = {
-			isa = XCVersionGroup;
-			children = (
-				CD6DEBC72AD8F58C00F9BAF7 /* MyName.xcdatamodel */,
-			);
-			currentVersion = CD6DEBC72AD8F58C00F9BAF7 /* MyName.xcdatamodel */;
-			path = MyName.xcdatamodeld;
-			sourceTree = "<group>";
-			versionGroupType = wrapper.xcdatamodel;
-		};
 		CD6DEBE02ADA56F500F9BAF7 /* NameMeaning.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
